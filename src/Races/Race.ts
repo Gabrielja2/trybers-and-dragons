@@ -18,7 +18,7 @@ export default abstract class Race {
 
   public abstract get maxLifePoints(): number;
 
-  static createdRacesInstances(): void {
+  static createdRacesInstances(): number {
     throw new Error('Not implemented');
   }
 }
