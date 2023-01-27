@@ -1,9 +1,9 @@
 # Bem vindos ao repositório do trybers-and-dragons
 
-<details>
-<summary><strong>👨‍💻 O que foi desenvolvido</strong></summary><br />
+
+<strong>👨‍💻 O que foi desenvolvido</strong><br />
     Para este projeto, foi aplicado os princípios da arquitetura SOLID e os princípios de POO em uma estrutura de jogos de interpretação de papéis, mais conhecidos como jogos RPG (Role Playing Game).
-</details>
+
 
 # Orientações
 
