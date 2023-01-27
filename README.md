@@ -5,14 +5,39 @@
     Para este projeto, foi aplicado os princípios da arquitetura SOLID e os princípios de POO em uma estrutura de jogos de interpretação de papéis, mais conhecidos como jogos RPG (Role Playing Game).
 </details>
 
+# Orientações
 
 <details>
-<summary><strong> ⚠️ Configurações mínimas para execução do projeto</strong></summary><br />
+  <summary><strong>🐋 Rodando no Docker vs Localmente</strong></summary><br />
+  
+  ## Com Docker
 
-Na sua máquina você deve ter:
- - Node 
- - Docker
- - Docker-compose versão >=1.29.2
+  > Rode o serviço `node` com o comando `docker-compose up -d`.
+  - Esse serviço irá inicializar um container chamado `trybers_and_dragons`.
+  - A partir daqui você pode rodar o container `trybers_and_dragons` via CLI ou abri-lo no VS Code.
+
+  > Use o comando `docker exec -it trybers_and_dragons bash`.
+  - Ele te dará acesso ao terminal interativo do container criado pelo compose, que está rodando em segundo plano.
+
+  > Instale as dependências [**Caso existam**] com `npm install`
+  
+  ⚠ Atenção ⚠ Caso opte por utilizar o Docker, **TODOS** os comandos disponíveis no `package.json` (npm start, npm test, npm run dev, ...) devem ser executados **DENTRO** do container, ou seja, no terminal que aparece após a execução do comando `docker exec` citado acima. 
+
+<img src="images/remote-container.png" width="800px" >  
+
+---
+  
+  ## Sem Docker
+  
+  > Instale as dependências [**Caso existam**] com `npm install`
+  
+  ⚠ Atenção ⚠ Não rode o comando npm audit fix! Ele atualiza várias dependências do projeto, e essa atualização gera conflitos com o avaliador.
+
+  ✨ **Dica:** Para rodar o projeto desta forma, obrigatoriamente você deve ter o `node` instalado em seu computador.
+
+  ✨ **Dica:** O avaliador espera que a versão do `node` utilizada seja a 16.
+
+  <br/>
 </details>
 
 <details>
