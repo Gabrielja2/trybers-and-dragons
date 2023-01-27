@@ -45,10 +45,5 @@
 
     3. Suba os imagens do servidor node e do banco de do docker-compose com o comando:
     *`docker-compose up -d`
-
-    4. Após subir o container, roda as migrations com o comando:
-    *`npm run db:reset`
-
-    5. Por fim acesse o bash da imagem do node e deixe o aplicação rodando na porta 3001 com o comando abaixo, mas lembre-se de verificar se não existe outro processo rodando na mesma porta:
-    *`npm run dev` 
+    
 </details>
