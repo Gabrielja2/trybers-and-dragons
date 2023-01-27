@@ -2,7 +2,7 @@
 
 
 <strong>👨‍💻 O que foi desenvolvido</strong><br />
-    Para este projeto, foi aplicado os princípios da arquitetura SOLID e os princípios de POO em uma estrutura de jogos de interpretação de papéis, mais conhecidos como jogos RPG (Role Playing Game).
+    Aqui você vai encontrar os detalhes de como foi estruturado este projeto e instruções para rodar. Essa aplicação segue os princípios da arquitetura SOLID e os princípios de POO em uma estrutura de jogos de interpretação de papéis, mais conhecidos como jogos RPG (Role Playing Game).
 
 
 # Orientações
