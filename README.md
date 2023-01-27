@@ -1,4 +1,4 @@
-# Bem vindos ao repositório do trybers-and-dragons
+# Bem vindos ao repositório trybers-and-dragons
 
 
 <strong>👨‍💻 O que foi desenvolvido</strong><br />
